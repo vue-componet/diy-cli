@@ -1,0 +1,30 @@
+{
+  "name": "diy-cli",
+  "version": "0.0.1",
+  "description": "自定义命令行工具，用于平常简化项目初始化",
+  "bin": {
+    "diy-cli": "index.js"
+  },
+  "scripts": {
+    "lint": "eslint ./ --fix"
+  },
+  "keywords": ["命令行工具"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.7",
+    "inquirer": "^7.3.3",
+    "log-symbols": "4.0.0",
+    "ora": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  }
+}
